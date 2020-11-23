@@ -20,12 +20,13 @@ class MainActivity : AppCompatActivity() {
 
         btnChangeName.setOnClickListener{
 
-            var name = inputName.text
+            var name = inputName.text.toString()
+            var city = inputName.text.toString()
             //var a = "Sveiki, " + name
             //divas slipsvitras ir komentars
 
             //lai paraditos Toast zina
-            Toast.makeText(this@MainActivity, "Sveiki, " + name, Toast.LENGTH_SHORT).show()
+            Toast.makeText(this@MainActivity, city + " " + name, Toast.LENGTH_SHORT).show()
 
             //Lai nomainitu tekstu
             lblName.text = name
