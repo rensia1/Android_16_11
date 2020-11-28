@@ -1,4 +1,4 @@
-package com.techspace.day6
+package com.techspace.day6_Tasks
 
 import org.junit.Test
 

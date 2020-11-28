@@ -1,4 +1,4 @@
-package com.techspace.day6
+package com.techspace.day6_Tasks
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
