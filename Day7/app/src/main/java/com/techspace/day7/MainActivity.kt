@@ -1,6 +1,8 @@
 package com.techspace.day7
 
 import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
+import android.graphics.drawable.Drawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -18,8 +20,15 @@ class MainActivity : AppCompatActivity() {
 
         setListener(btnTest)
         setListener(btnTest2)
-
         btnTest2.setBackgroundColor(Color.GREEN)
+//ja gribas parbaudit pogas krasu
+//        val dr: ColorDrawable
+//
+//        dr = btnTest.background as ColorDrawable
+//
+//        if(dr.color == Color.RED){
+//
+//        }
 
     }
 
