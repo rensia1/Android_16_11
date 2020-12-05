@@ -2,10 +2,8 @@ package com.techspace.day6_Tasks
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
-import android.widget.EditText
-import android.widget.TextView
-import android.widget.Toast
+import android.widget.*
+import kotlinx.android.synthetic.main.activity_main.view.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -107,6 +105,9 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
             }
+            val switch = findViewById<Switch>(R.id.switch2)
+
+            switch.isChecked = !switch.isChecked;
 
         }
     }
