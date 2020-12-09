@@ -22,13 +22,13 @@ class MainActivity : AppCompatActivity() {
         setListener(btnTest2)
         btnTest2.setBackgroundColor(Color.GREEN)
 //ja gribas parbaudit pogas krasu
-//        val dr: ColorDrawable
-//
-//        dr = btnTest.background as ColorDrawable
-//
-//        if(dr.color == Color.RED){
-//
-//        }
+        val dr: ColorDrawable
+
+        dr = btnTest.background as ColorDrawable
+
+        if(dr.color == Color.RED){
+
+        }
 
     }
 
